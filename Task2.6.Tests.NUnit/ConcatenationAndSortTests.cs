@@ -11,8 +11,8 @@ namespace Task2._6.Tests.NUnit
     [TestFixture()]
     public class ConcatenationAndSortTests
     {
-        [TestCase("aksjfhdladkjfhgkfldalskdjfhghfjdkdlslaksjdhfk", "zmxncbcvgdbcjnzbcvxmnbvcxzahsjdjfhkjhhasdghbhjcbzhjzsvdgzsdhzcbnhgvsd", ExpectedResult = "abcdfghjklmnsvxz")]
-        [TestCase("aksjfhdladkjfhgkfBVNXCVBXldalskdjfhghfjdkdlslaksjdhfkFHDJAKABKVBSJLDNCM", "zmxncbcvgdbcjnzbcvxmnbvSDFcxzahsjdjfhkjhhasdghbhjcbzDBFhjzsvdgzsdhzcbSDFSDAFFnhgvsd", ExpectedResult = "abcdfghjklmnsvxz")]
+        [TestCase("aksjfhdladkjfhgkfldalskdjfhghfjdkdlslaksjdhfk", "zmxncbcvgdbcjnzbcvxmnbvcxzahsjdjfhkjhhasddgzsdhzcbnhgvsd", ExpectedResult = "abcdfghjklmnsvxz")]
+        [TestCase("alskdjfhgmznxbcvgdbHBGDSCBJMNBCFKAM", "zmxzbcvxmnbvSDFcxzahsjdjfhkjhhasdghbhjcbzSDFSDAFFnhgvsd", ExpectedResult = "abcdfghjklmnsvxz")]
         public void ConcatenationAndSortAndDeleteDuplicateTest_Exist(string str1, string str2, string expectedResult)
         {
             var actual = ConcatenationAndSortAndDeleteDuplicate(str1, str2);

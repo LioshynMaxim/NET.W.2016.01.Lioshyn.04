@@ -11,7 +11,7 @@ namespace Task2._6.Tests
         public void Equals_TwoLongestString_abcdfghjklmnsvxz()
         {
             string str1 = "aksjfhdladkjfhgkfldalskdjfhghfjdkdlslaksjdhfk";
-            string str2 = "zmxncbcvgdbcjnzbcvxmnbvcxzahsjdjfhkjhhasdghbhjcbzhjzsvdgzsdhzcbnhgvsd";
+            string str2 = "zmxncbcvgdbcjnzbfhkjhhasdghbhjcbzhjzsvdgzsdhzcbnhgvsd";
             
             var expected = "abcdfghjklmnsvxz";
             var actual = ConcatenationAndSortAndDeleteDuplicate(str1, str2);
@@ -51,8 +51,8 @@ namespace Task2._6.Tests
         [TestMethod]
         public void Equals_TwoLongestStringWithSmallAndBigLatters_Fail()
         {
-            string str1 = "aksjfhdladkjfhgkfBVNXCVBXldalskdjfhghfjdkdlslaksjdhfkFHDJAKABKVBSJLDNCM";
-            string str2 = "zmxncbcvgdbcjnzbcvxmnbvSDFcxzahsjdjfhkjhhasdghbhjcbzDBFhjzsvdgzsdhzcbSDFSDAFFnhgvsd";
+            string str1 = "alskdjfhgmznxbcvgdbHBGDSCBJMNBCFKAM";
+            string str2 = "zmxzbcvxmnbvSDFcxzahsjdjfhkjhhasdghbhjcbzSDFSDAFFnhgvsd";
             
             var expected = "abcdfghjklmnsvxz";
             var actual = ConcatenationAndSortAndDeleteDuplicate(str1, str2);
