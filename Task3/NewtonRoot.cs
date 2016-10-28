@@ -17,14 +17,14 @@ namespace Task3
         /// <param name="a">The number from which the root is removed</param>
         /// <param name="eps">Accyraty</param>
         /// <returns>Radical of a</returns>
-        public static double NewtonRootN(int n, double a, double eps = 0.0001)
+        public static double NewtonRootN(int n, double a, double eps)
         {
-            if (Double.IsNaN(a) || Double.IsNaN(eps) || (n == null))
+            if (Double.IsNaN(a) || Double.IsNaN(eps))
             {
                 throw new ArgumentNullException();
             }
 
-            if ((eps >= 1) || (eps < 0) || ((a < 0) && (n % 2 == 0)))
+            if ((eps >= 1) || (eps < 0) || ((a < 0) && (n % 2 == 0)) || (n == 0))
             {
                 throw new ArgumentException();
             }
