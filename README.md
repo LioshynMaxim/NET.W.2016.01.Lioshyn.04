@@ -7,17 +7,13 @@
 5. Given an array of integers. Find the array and return an index n, such that the sum of the elements on the left of it is the sum of the right elements. If such an index does not return null (-1).
 
 For example.
-* For an array {1,2,3,4,3,2,1} function returns the index of 3 as the 3rd
- array positions, the amount left of the index ({1,2,3}) and right index ({3,2, 1})
-  6 are equal.
-* For an array {1,100,50, -51,1,1} function returns the index 1, since the 1st
-array position from the sum of the left index ({1}) and right index ({50} -51,1,1)
-equal to 1.
-Input: An integer array of length 0 <length <1000. The numbers in the array can be any positive or negative integer.
+* For an array {1,2,3,4,3,2,1} function returns the index of 3 as the 3rd  array positions, the amount left of the index ({1,2,3}) and right index ({3,2, 1}) 6 are equal.
+* For an array {1,100,50, -51,1,1} function returns the index 1, since the 1st array position from the sum of the left index ({1}) and right index ({50} -51,1,1) equal to 1.
+Input: An integer array of length 0 < length < 1000. The numbers in the array can be any positive or negative integer.
 Output: The smallest index for which the left side is the right side. If such an index does not exist return -1 (null).
 
 
-6. For two strings that contain only characters from 'a' to 'z', to return a concatenated string sorted in alphabetical order, except for recurring characters.
+6.For two strings that contain only characters from 'a' to 'z', to return a concatenated string sorted in alphabetical order, except for recurring characters.
 
 For example.
 a = "xyaabbbccccdefww"
@@ -27,7 +23,7 @@ Longest (a, b) -> "abcdefklmopqwxy"
 a = "abcdefghijklmnopqrstuvwxyz"
 Longest (a, a) -> "abcdefghijklmnopqrstuvwxyz
 
-7. Given two iconic four-byte integer number and two bit positions i and j (i <j). Implement an algorithm inserts one number to the other so that the second number took a position with the bit by bit i j (bits are numbered from right to left).
+7.Given two iconic four-byte integer number and two bit positions i and j (i <j). Implement an algorithm inserts one number to the other so that the second number took a position with the bit by bit i j (bits are numbered from right to left).
 For example.
 Insertion (8,15,0,0) -> 9
 Insertion (0, 15, 30, 30) -> 1073741824
