@@ -16,17 +16,27 @@ Output: The smallest index for which the left side is the right side. If such an
 6.For two strings that contain only characters from 'a' to 'z', to return a concatenated string sorted in alphabetical order, except for recurring characters.
 
 For example.
+
 a = "xyaabbbccccdefww"
+
 b = "xxxxyyyyabklmopq"
+
 Longest (a, b) -> "abcdefklmopqwxy"
 
 a = "abcdefghijklmnopqrstuvwxyz"
+
 Longest (a, a) -> "abcdefghijklmnopqrstuvwxyz
 
 7.Given two iconic four-byte integer number and two bit positions i and j (i <j). Implement an algorithm inserts one number to the other so that the second number took a position with the bit by bit i j (bits are numbered from right to left).
+
 For example.
+
 Insertion (8,15,0,0) -> 9
+
 Insertion (0, 15, 30, 30) -> 1073741824
+
 Insertion (0, 15, 0, 30) -> 15
+
 Insertion (15, -15, 0, 4) -> 31
+
 Insertion (15, int.MaxValue, 3, 5) -> 63
