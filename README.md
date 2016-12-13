@@ -5,6 +5,7 @@
 3. Develop a method to calculate the root of the n-th degree of the number of Newton's method with the specified accuracy. Develop unit-tests to test the resulting method.
 4. Implement an extension method for the binary representation of a real number in the IEEE double precision format 754. Develop unit tests.
 5. Given an array of integers. Find the array and return an index n, such that the sum of the elements on the left of it is the sum of the right elements. If such an index does not return null (-1).
+
 For example.
 * For an array {1,2,3,4,3,2,1} function returns the index of 3 as the 3rd
  array positions, the amount left of the index ({1,2,3}) and right index ({3,2, 1})
@@ -24,10 +25,10 @@ Longest (a, b) -> "abcdefklmopqwxy"
 a = "abcdefghijklmnopqrstuvwxyz"
 Longest (a, a) -> "abcdefghijklmnopqrstuvwxyz
 
-7.	Даны два целых знаковых четырехбайтовых числа и две позиции битов i и j (i<j). Реализовать алгоритм вставки одного числа в другое так, чтобы второе число занимало позицию с бита j по бит i (биты нумеруются справа налево).
-Например.
-Insertion(8,15,0,0) ->9
-Insertion(0, 15, 30, 30) ->1073741824
-Insertion(0, 15, 0, 30) -> 15
-Insertion(15, -15, 0, 4) -> 31
-Insertion(15, int.MaxValue, 3, 5)->63
+7. Given two iconic four-byte integer number and two bit positions i and j (i <j). Implement an algorithm inserts one number to the other so that the second number took a position with the bit by bit i j (bits are numbered from right to left).
+For example.
+Insertion (8,15,0,0) -> 9
+Insertion (0, 15, 30, 30) -> 1073741824
+Insertion (0, 15, 0, 30) -> 15
+Insertion (15, -15, 0, 4) -> 31
+Insertion (15, int.MaxValue, 3, 5) -> 63
