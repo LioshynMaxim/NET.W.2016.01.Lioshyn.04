@@ -16,19 +16,15 @@ equal to 1.
 Input: An integer array of length 0 <length <1000. The numbers in the array can be any positive or negative integer.
 Output: The smallest index for which the left side is the right side. If such an index does not exist return -1 (null).
 
+
 6. For two strings that contain only characters from 'a' to 'z', to return a concatenated string sorted in alphabetical order, except for recurring characters.
 
 For example.
-
 a = "xyaabbbccccdefww"
-
 b = "xxxxyyyyabklmopq"
-
 Longest (a, b) -> "abcdefklmopqwxy"
 
-
 a = "abcdefghijklmnopqrstuvwxyz"
-
 Longest (a, a) -> "abcdefghijklmnopqrstuvwxyz
 
 7. Given two iconic four-byte integer number and two bit positions i and j (i <j). Implement an algorithm inserts one number to the other so that the second number took a position with the bit by bit i j (bits are numbered from right to left).
